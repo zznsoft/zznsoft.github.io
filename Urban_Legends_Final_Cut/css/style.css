@@ -620,7 +620,7 @@ form label {
 }
 
 #gtco-counter {
-  text-align: center;
+ /* text-align: center;*/
 }
 #gtco-counter .counter {
   font-size: 50px;
