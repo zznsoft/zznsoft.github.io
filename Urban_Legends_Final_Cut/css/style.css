@@ -2061,7 +2061,7 @@ form label {
 
 @media screen and (max-width: 768px) {
   #gtco-hero .flexslider .slider-text > .slider-text-inner h8 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 300;
   	color: #fff;
    
@@ -2071,11 +2071,17 @@ form label {
     margin-left: 10%;
     
   }
+  #gtco-contact  .col-md-12 h3{
+  		font-size: 15px;
+  	}
+   	#gtco-contact  .col-md-12 p{
+   		font-size: 1px;
+  	 }
 }
 
 @media screen and (max-width: 768px) {
   #gtco-hero .flexslider .slider-text > .slider-text-inner h2 {
-    font-size: 20px;    
+    font-size: 30px;    
   }
 }
 
