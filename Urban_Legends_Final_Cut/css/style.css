@@ -2055,14 +2055,24 @@ form label {
   color: #fff;
 }
 @media screen and (max-width: 768px) {
-  #gtco-hero .flexslider .slider-text > .slider-text-inner h2 {
+  #gtco-hero .flexslider .slider-text > .slider-text-inner h8 {
     font-size: 20px;
+    font-weight: 300;
+  	color: #fff;
+    margin-left: 10%;
     
+  }
+   #gtco-hero .flexslider .slider-text > .slider-text-inner a {
+    margin-left: 10%;
     
   }
 }
 
-
+@media screen and (max-width: 768px) {
+  #gtco-hero .flexslider .slider-text > .slider-text-inner h2 {
+    font-size: 20px;    
+  }
+}
 
 @media screen and (max-width: 568px)
 {
