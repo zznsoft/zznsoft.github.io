@@ -1989,9 +1989,11 @@ form label {
   position: relative;
   z-index: 10;
 }
+
+
 #gtco-hero .flexslider .flex-direction-nav a.flex-prev {
   opacity: 1 !important;
-  left: 40px !important;
+/*  left: 40px !important;*/
 }
 #gtco-hero .flexslider .flex-direction-nav a.flex-prev:before {
   text-indent: 0px !important;
@@ -2008,7 +2010,7 @@ form label {
   content: "\e929";
 }
 #gtco-hero .flexslider .flex-direction-nav a.flex-next {
-  right: 40px !important;
+/*  right: 40px !important;*/
   opacity: 1 !important;
 }
 #gtco-hero .flexslider .flex-direction-nav a.flex-next:before {
@@ -2026,6 +2028,17 @@ form label {
   right: 0;
   content: "\e92a";
 }
+/* next 和 prev 隐藏 begin*/
+@media only screen and (max-width: 768px) {
+	#gtco-hero .flexslider .flex-direction-nav a.flex-next,
+	#gtco-hero .flexslider .flex-direction-nav a.flex-next:before,
+	#gtco-hero .flexslider .flex-direction-nav a.flex-prev,
+	#gtco-hero .flexslider .flex-direction-nav a.flex-prev:before {
+		display: none;
+	}
+
+}
+/*over*/
 #gtco-hero .flexslider .slider-text {
   display: table;
   opacity: 0;
@@ -2043,9 +2056,25 @@ form label {
 }
 @media screen and (max-width: 768px) {
   #gtco-hero .flexslider .slider-text > .slider-text-inner h2 {
-    font-size: 40px;
+    font-size: 20px;
+    
+    
   }
 }
+
+
+
+@media screen and (max-width: 568px)
+{
+	#gtco-hero .flexslider .slides {
+			width: 100%;
+			height: 100%;
+	}
+}
+
+
+
+
 #gtco-hero .flexslider .slider-text > .slider-text-inner .gtco-lead {
   font-size: 20px;
   color: #fff;
