@@ -2049,17 +2049,22 @@ form label {
   vertical-align: middle;
   min-height: 700px;
 }
-#gtco-hero .flexslider .slider-text > .slider-text-inner h2 {
+#gtco-hero .flexslider .slider-text > .slider-text-inner h2,
+#gtco-hero .flexslider .slider-text > .slider-text-inner h8 {
   font-size: 60px;
   font-weight: 300;
   color: #fff;
 }
+/*#gtco-hero .flexslider .slider-text > .slider-text-inner{
+	word-break:break-all; width:100px;
+}*/
+
 @media screen and (max-width: 768px) {
   #gtco-hero .flexslider .slider-text > .slider-text-inner h8 {
     font-size: 20px;
     font-weight: 300;
   	color: #fff;
-    margin-left: 10%;
+   
     
   }
    #gtco-hero .flexslider .slider-text > .slider-text-inner a {
