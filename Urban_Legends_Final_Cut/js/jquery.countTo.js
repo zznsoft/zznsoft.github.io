@@ -40,7 +40,7 @@
       to:              this.$element.data('to'),
       speed:           this.$element.data('speed'),
       refreshInterval: this.$element.data('refresh-interval'),
-      decimals:        this.$element.data('decimals')
+      decimals:        this.$element.data('decimals'),
     };
 
     var keys = Object.keys(options);

@@ -312,11 +312,20 @@
 	var counter = function() {
 		$('.js-counter').countTo({
 			 formatter: function (value, options) {
-	      return value.toFixed(options.decimals);
-	    },
+			 	 return value.toFixed(options.decimals);
+	   },
+		});
+		$('.js-counte').countTo({
+			 formatter: function (value, options) {
+			 	 return value.toFixed(options.decimals)+'W+';
+	   },
+		});
+		$('.js-count').countTo({
+			 formatter: function (value, options) {
+			 	 return value.toFixed(options.decimals)+'%';
+	   },
 		});
 	};
-
 	var counterWayPoint = function() {
 		if ($('#gtco-counter').length > 0 ) {
 			$('#gtco-counter').waypoint( function( direction ) {
