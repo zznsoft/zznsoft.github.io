@@ -547,6 +547,7 @@ mark,
 
 .text-center {
   text-align: center;
+  width: 100%;
 }
 
 .text-justify {

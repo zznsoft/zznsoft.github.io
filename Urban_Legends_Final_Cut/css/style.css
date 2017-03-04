@@ -2079,16 +2079,19 @@ form label {
   	 }
 }
 
-/*@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
   #gtco-hero .flexslider .slider-text > .slider-text-inner h2 {
-    font-size: 44px;    
+    font-size: 30px;   
+    margin-bottom: 20px; 
   }
-}*/
+}
 @media only screen and (min-width: 400px) and (max-width: 640px) {
 	  #gtco-hero .flexslider .slider-text > .slider-text-inner h2 {
-    font-size: 44px;    
+    font-size: 35px; 
+    margin-bottom: 20px;    
 }
 }
+/*
 @media only screen and (min-width: 350px) and (max-width: 400px) {
 	  #gtco-hero .flexslider .slider-text > .slider-text-inner h2 {
     font-size: 39px;    
@@ -2098,7 +2101,7 @@ form label {
 	  #gtco-hero .flexslider .slider-text > .slider-text-inner h2 {
     font-size: 32px;    
 }
-}
+}*/
 @media only screen and (min-width: 640px) and (max-width: 800px) {
 	  #gtco-hero .flexslider .slider-text > .slider-text-inner h2 {
     font-size: 60px;    
