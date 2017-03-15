@@ -2084,12 +2084,14 @@ form label {
     font-size: 30px;   
     margin-bottom: 20px; 
   }
+
 }
 @media only screen and (min-width: 400px) and (max-width: 640px) {
 	  #gtco-hero .flexslider .slider-text > .slider-text-inner h2 {
     font-size: 35px; 
     margin-bottom: 20px;    
 }
+
 }
 /*
 @media only screen and (min-width: 350px) and (max-width: 400px) {
@@ -2106,6 +2108,7 @@ form label {
 	  #gtco-hero .flexslider .slider-text > .slider-text-inner h2 {
     font-size: 60px;    
 }
+
 }
 @media screen and (max-width: 568px)
 {
