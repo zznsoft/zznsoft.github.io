@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/black</item>
+    </style>
+    <!-- loading 样式 -->
+    <style name="loadstyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/iosstyle_halftransparent_bg</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    
+    <!--登陆样式表-->
+    <style name="txt_hint">
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+    <style name="line_breakup">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorLine</item>
+    </style>
+    <style name="txt_middle">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorLine</item>
+    </style>
+
+    <style name="playdialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@drawable/background_play_dialog</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+    </style>
+</resources>

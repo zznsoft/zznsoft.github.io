@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ElderYun</string>
+
+    <string name="hint_identify">请输入身份证号</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="txt_forgetpassword">忘记密码</string>
+    <string name="txt_register">快速注册</string>
+    <string name="txt_login">登录</string>
+
+    <string name="txt_longevity">养生</string>
+</resources>
