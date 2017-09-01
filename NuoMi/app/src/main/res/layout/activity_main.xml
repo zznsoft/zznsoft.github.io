@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zzn.nuomi.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/fragment_main"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/colorDivider"/>
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_main"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:textSize="10sp"
+                android:drawableTop="@drawable/reyi"
+                android:text="@string/rb_main"
+                android:textColor="@drawable/rb_tv_color"
+                android:gravity="center_horizontal"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_shop"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:textSize="10sp"
+                android:drawableTop="@drawable/reyi"
+                android:gravity="center_horizontal"
+                android:textColor="@drawable/rb_tv_color"
+                android:text="@string/rb_shop" />
+
+            <RadioButton
+                android:id="@+id/rb_order"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/reyi"
+                android:textColor="@drawable/rb_tv_color"
+                android:text="@string/rb_order"
+                android:textSize="10sp"
+                android:gravity="center_horizontal"
+                />
+
+            <RadioButton
+                android:id="@+id/rb_me"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/reyi"
+                android:textColor="@drawable/rb_tv_color"
+                android:text="@string/rb_me"
+                android:textSize="10sp"
+                android:layout_marginBottom="10px"
+                android:gravity="center_horizontal"
+                />
+        </RadioGroup>
+</LinearLayout>

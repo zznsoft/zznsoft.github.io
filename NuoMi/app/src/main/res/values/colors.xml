@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMain">#3293FF</color>
+    <color name="colorComplementary">#74B6FF</color>
+    <color name="colorLabel">#FFAD30</color>
+    <color name="colorDivider">#D6D7DC</color>
+    <color name="colorText">#808080</color>
+    <color name="colorTitle">#343434</color>
+    <color name="black_bg">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="viewfinder_frame">#929292</color>
+    <color name="gray_text">#adadad</color>
+    <color name="state_bar_color">#4291ff</color>
+    <color name="color_yellow">#ffff99</color>
+
+    <color name="bg_base_color">#f2f2f2</color>
+
+    <color name="nurse_group_btn">#1cb9cf</color>
+    <color name="nurse_group_list_bg">#f2f2f2</color>
+    <color name="color_bg">#1cb9cf</color>
+    <color name="colorBase">#1cb9cf</color>
+    <color name="colorWhile">#ffffff</color>
+    <color name="common_bg">#f0f0f3</color>
+    <color name="dark_bg_70p">#bb000000</color>
+    <color name="common_sub_text">#888888</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="quality_focused_color">#448cf3</color>
+    <color name="preview_quality_color">#3eaefa</color>
+    <color name="realplay_loading_text">#7d755d</color>
+    <color name="application_bg">@color/common_bg</color>
+    <color name="message_bg">#fff</color>
+    <color name="common_line">#c8c7cc</color>
+
+    <color name="soildColor">#E6E6E6</color>
+    <color name="colorLoginShapeEdit">#F2F2F2</color>
+    <color name="color98">#989898</color>
+    <color name="colorEdit">#333333</color>
+    <color name="colorEditHint">#CCCCCC</color>
+    <color name="colorLoginText">#989898</color>
+    <color name="text_color">#989898</color>
+    <color name="image_circle_color">#ff97BAD1</color>
+
+    <color name="text_unSelect_color">#989898</color>
+
+    <color name="main_text_help_color">#55C3ED</color>
+    <color name="main_text_service_color">#F7605C</color>
+    <color name="main_text_look_color">#F3C020</color>
+    <color name="main_text_location_color">#5FCC8F</color>
+
+
+    <color name="exopen_text_ptz_color">#35D79C</color>
+    <color name="exopen_text_talk_color">#E2D423</color>
+    <color name="exopen_text_camera_color">#5CB5EE</color>
+    <color name="exopen_text_capture_color">#F06589</color>
+    <color name="exopen_text_record_color">#97A2CC</color>
+    <color name="exopen_text_history_record_color">#7EE047</color>
+
+    <color name="main_txt_looking">#F3C020</color>
+    <color name="main_txt_call">#97a2cc</color>
+    <color name="main_txt_help">#55c3ed</color>
+    <color name="main_txt_locaiton">#5fcc8f</color>
+    <color name="main_txt_seek_help">#f7605c</color>
+    <color name="main_txt_android">#7ee047</color>
+
+    <color name="recharge_orange">#f46b20</color>
+
+    <!-- common -->
+    <color name="c1">#f37f4c</color>
+    <color name="c2">#333</color>
+    <color name="c3">#666</color>
+    <color name="c4">#8d8d8d</color>
+    <color name="c5">#999</color>
+    <color name="c6">#b7b7b7</color>
+    <color name="c7">#cacaca</color>
+    <color name="c8">#e1e1e1</color>
+    <color name="c9">#f4f4f4</color>
+    <color name="c10">#ca511c</color>
+    <color name="c11">#f9f9f9</color>
+    <color name="ez_c1">#1E90FF</color>
+
+
+    <color name="colorPink">#F06589</color>
+    <color name="colorGreen">#7EE047</color>
+    <color name="colorBlue">#5CB5EE</color>
+    <color name="colorYellow">#E2D423</color>
+    <color name="colorRed">#FF001F</color>
+    <color name="listview_background">#F3F3F3</color>
+    <color name="lightblue">#edf9fb</color>
+
+    <color name="login_edt_color">#94dce1</color>
+    <color name="login_txt_color">#1cb9cf</color>
+
+    <color name="nurse_group_adapter_txt_dis">#cccccc</color>
+
+    <color name="circleIndicator_color_cicle">#1cb9cf</color>
+    <color name="circleIndicator_color">#B6E9F0</color>
+    <color name="start_text_color">#1CB9CF</color>
+
+    <color name="personal_center_txt">#989898</color>
+    <color name="personal_center_edt">#333333</color>
+    <color name="state_pressed_true_Color">#d9d9d9</color>
+
+    <color name="bg_setting_activity">#f2f2f2</color>
+    <color name="bg_setting_activity_ver">#1CB9CF</color>
+</resources>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">糯米团子</string>
+    <string name="rb_main">首页</string>
+    <string name="rb_shop">商家</string>
+    <string name="rb_order">订单</string>
+    <string name="rb_me">我</string>
+    <string name="edit_username">请输入账号</string>
+    <string name="edit_password">请输入密码</string>
+
+    <string name="ok">确定</string>
+    <string name="back_login">退出登录</string>
+
+    <string name="account_settings">账号设置</string>
+    <string name="about">关于我们</string>
+    <string name="message_prompt">消息与提醒</string>
+    <string name="version_update">版本更新</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="weather_title">WEATHER  天气</string>
+    <string name="food_title">FOODS  美食推荐</string>
+    <string name="more">查看更多></string>
+
+    <string name="account_settings_title">个人信息</string>
+    <string name="account_settings_nickname">昵称</string>
+    <string name="account_settings_sex">性别</string>
+    <string name="account_settings_explain">签名</string>
+    <string name="account_settings_phone">手机</string>
+    <string name="account_settings_mail">邮箱</string>
+    <string name="account_settings_school">学校</string>
+    <string name="account_settings_department">系别</string>
+    <string name="account_settings_major">专业</string>
+    <string name="account_settings_class">班级</string>
+    <string name="account_settings_studentId">学号</string>
+</resources>

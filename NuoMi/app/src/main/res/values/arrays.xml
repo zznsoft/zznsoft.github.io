@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_long_Title">
+        <item>BREAKIN</item>
+        <item>CONTEMPORARY</item>
+        <item>HIP_HOP</item>
+        <item>HOUSE</item>
+        <item>JAZZ</item>
+        <item>LOCKIN</item>
+        <item>POPIN</item>
+        <item>REGGAE</item>
+        <item>WAACKIN</item>
+    </string-array>
+
+    <string-array name="tab_event_title">
+        <item>全部</item>
+        <item>BATTLE</item>
+        <item>齐舞比赛</item>
+    </string-array>
+
+    <string-array name="search">
+        <item>视频</item>
+        <item>BREAKIN</item>
+        <item>CONTEMPORARY</item>
+        <item>HIP_HOP</item>
+        <item>HOUSE</item>
+        <item>JAZZ</item>
+        <item>LOCKIN</item>
+        <item>POPIN</item>
+        <item>REGGAE</item>
+        <item>WAACKIN</item>
+        <item>舞者</item>
+        <item>北京 </item>
+        <item>上海</item>
+        <item>杭州</item>
+        <item>赛事专辑</item>
+        <item>Battle</item>
+        <item>齐舞比赛</item>
+    </string-array>
+
+        <declare-styleable name="CircleImageView">
+            <attr name="border_width" format="dimension" />
+            <attr name="border_color" format="color" />
+        </declare-styleable>
+</resources>
